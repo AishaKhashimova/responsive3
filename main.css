@@ -1,0 +1,232 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+:root {
+    --YusufPamidorRangi: #FC004A;
+
+}
+
+.container {
+    max-width: 100%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+
+
+.header-wrapper {
+    gap: 30px;
+    padding: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.header-list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.button-header {
+    width: 100%;
+    border-radius: 12px;
+    border: none;
+    padding: 10px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    background-color: var(--YusufPamidorRangi);
+    color: #fff;
+}
+
+
+.left-header {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.onas {
+    display: none;
+}
+
+.img-sec1{
+    width: 100%;
+    margin-top:4% ;
+    border-radius: 10px;
+}
+.cardall{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    flex-wrap: wrap;
+}
+.h2-sec2{
+font-weight: 700;
+font-size: 130%;
+color: black;
+margin: 2% 0 2% 5%;
+}
+.text-sec2{
+    color: var(--YusufPamidorRangi);
+font-weight: 500;
+font-size: 135%;
+margin-left: 4%;
+}
+.sec2-wrapper{
+margin: 5% 0;
+    font-weight: 400;
+    font-size: 32.48px;
+}
+.box{
+    box-shadow: 10px 10px 10px rgb(230, 226, 226),-10px -10px 10px  rgb(230, 226, 226) ;
+    width: 20%;
+    border-radius: 10px 10px;
+    padding: 10px;
+    transition: transform 300ms ease;
+}
+.box:hover{
+    transform: scale(1.1);
+}
+.btn-sec2{
+    margin: 0 0 0 60%;
+    border: none;
+    background: none;
+}
+.cardall-f{
+    margin: 4% 0;
+    display: flex;
+    justify-content: center;
+    gap: 38%;
+}
+@media only screen and (max-width: 814px) {
+    .left-header {
+        gap: 5px;
+    }
+.img-sec2{
+    width: 80%;
+    
+}
+.box{
+    box-shadow: 10px 10px 10px rgb(230, 226, 226),-10px -10px 10px  rgb(230, 226, 226) ;
+    width: 25%;
+    border-radius: 10px 10px;
+    padding: 10px;
+    transition: transform 300ms ease;
+}
+    .header-list {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 12px;
+    }
+    .h2-sec2{
+        font-weight: 700;
+        font-size: 100%;
+        color: black;
+        margin: 2% 0 2% 5%;
+        }
+    
+    .text-sec2{
+        color: var(--YusufPamidorRangi);
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 4%;
+    }
+    .btn-sec2{
+        width:50%;
+        margin: 0 0 0 50%;
+        border: none;
+        background: none;
+    }
+}
+
+@media only screen and (max-width: 662px) {
+    .left-header {
+        gap: 5px;
+    }
+
+    .header-list {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 12px;
+    }
+
+    .header-img {
+        display: none;
+    }
+
+
+    .header-list {
+        display: none;
+        align-items: center;
+        gap: 5px;
+    }
+    .onas {
+        display: block;
+    }
+
+
+}
+@media only screen and (max-width: 510px) {
+    .left-header {
+        gap: 5px;
+    }
+.img-sec2{
+    width: 100%;
+    
+}
+.box{
+    box-shadow: 10px 10px 10px rgb(230, 226, 226),-10px -10px 10px  rgb(230, 226, 226) ;
+    width: 40%;
+    border-radius: 10px 10px;
+    padding: 10px;
+    transition: transform 300ms ease;
+}
+    .header-list {
+        display: flex;
+        align-items: center;
+        gap: 5px;
+        font-size: 12px;
+    }
+    .h2-sec2{
+        font-weight: 700;
+        font-size: 100%;
+        color: black;
+        margin: 2% 0 2% 5%;
+        }
+    
+    .text-sec2{
+        color: var(--YusufPamidorRangi);
+    font-weight: 500;
+    font-size: 13px;
+    margin-left: 4%;
+    }
+    .btn-sec2{
+        width:50%;
+        margin: 0 0 0 50%;
+        border: none;
+        background: none;
+    }
+    .cardall-f{
+        margin: 4% 10%;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        .img-f{
+            width: 20%;
+        }
+    }
+}
+
